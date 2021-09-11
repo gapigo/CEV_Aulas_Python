@@ -1,0 +1,27 @@
+Primeira funcionalidade:
+
+'F'*5
+imprime FFFFF
+
+--------------------------------------------------------------------
+Segunda funcionalidade:
+
+print('Olá {:20}' .format(nome)) -> Espaça 20 caracteres, de
+modo que fique uma formatação mais clean
+print('Olá {:>20}' .format(nome)) -> "<" ou ">", escolhe o lado em q
+será espaçado
+print('Olá {:^20}' .format(nome)) -> O circunflexo alinha ao meio
+print('Olá {:=>20}' .format(nome)) -> Imprime '=' no lugar de ' '
+--------------------------------------------------------------------
+Terceira funcionalidade:
+
+print('O quociente será: {:.3f}'
+Restringe o número total de casas decimais até 3.
+--------------------------------------------------------------------
+Quarta funcionalidade:
+
+print('Olá usu', end='')
+print('ário')
+
+"End = '[Caractere]'" define um caractere como o final da
+função print (o padrão é \n (quebra de linha)).

@@ -1,0 +1,11 @@
+var = input('Digite algo: ')
+
+print('\nTestador sobre o que você escreveu, True = Sim, False = Não \n')
+print('O digitado tem somente números? ', var.isnumeric())
+print('O digitado tem somente letras? ', var.isalpha())
+print('O digitado tem números ou letras? ', var.isalnum())
+print('O digitado tem somente letras maiúsculas? ', var.isupper())
+print('O digitado tem somente letras minúsculas? ', var.islower())
+print('O digitado tem somente espaço? ', var.isspace())
+print('O digitado tem somente números? ', var.isdigit())
+print('O digitado é um número múltiplo de 10? ', var.isdecimal())

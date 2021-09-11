@@ -1,0 +1,5 @@
+print('Programa que calcula a hipotenusa de triângulos retângulos')
+co = float(input('Informe o cateto oposto: '))
+ca = float(input('Informe o cateto adjacente: '))
+hip = (ca**2 + co**2)**(1/2)
+print('\nA hipotenusa do triângulo de catetos {} e {} será {}' .format(co, ca, hip))

@@ -1,0 +1,16 @@
+Análise com
+len(),                                        len(frase)
+count(),                                      frase.count('o')
+find(),                                       frase.find('Exemplo')
+
+transformações com
+replace(),                                    frase.replace('String da frase', 'String que se deseja')
+upper(),                                      frase.upper()
+lower(),                                      frase.lower()
+capitalize(),                                 frase.capitalize()
+title(),                                      frase.title()
+strip(),                                      frase.strip()
+
+junção com
+join().                                       ' '.join(lista)
+

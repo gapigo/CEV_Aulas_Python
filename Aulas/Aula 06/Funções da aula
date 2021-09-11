@@ -1,0 +1,24 @@
+var = int(input('Teste'))
+
+A função "int()" obriga a variável ser apenas de inteiros
+assim como:
+
+int, float, bool, str
+--------------------------------------------------------------------
+
+print(type(var))
+
+A função "type()" dá o tipo da variável
+
+--------------------------------------------------------------------
+
+print('O número {0} mais {1} é igual a {2}' .format(n1, n2, n1+n2))
+
+A função ".format()", como dada em exemplo acima, serve para
+simplificar a função print, se tratando da relação entre variáveis
+e mensagem.
+
+--------------------------------------------------------------------
+
+A função "var.is[tipo]()" serve para identificar uma característica
+do caractere digitado na variável (ver exemplo na pasta da aula)
